@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-outfit: Outfit;
+  --font-oswald: Oswald;
+
+  /* font sizes */
+  --font-size-5xl: 24px;
+  --font-size-lgi: 19px;
+  --font-size-xl: 20px;
+  --font-size-10xl: 29px;
+  --font-size-29xl: 48px;
+
+  /* Colors */
+  --color-steelblue-100: #045e9e;
+  --color-steelblue-200: rgba(53, 103, 163, 0.12);
+  --color-black: #000;
+  --color-mediumturquoise: #6ad4dd;
+  --color-gold-100: #fff455;
+
+  /* Gaps */
+  --gap-xl: 20px;
+  --gap-10xl: 29px;
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-3xl: 22px;
+  --padding-14xl: 33px;
+
+  /* Border radiuses */
+  --br-lg: 18px;
+  --br-3xs: 10px;
+}

@@ -1,0 +1,504 @@
+.navbar-child {
+  height: 61px;
+  width: 1440px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-mediumturquoise);
+  display: none;
+  max-width: 100%;
+}
+.economics,
+.history,
+.home {
+  position: relative;
+  line-height: 28px;
+  display: inline-block;
+  z-index: 1;
+}
+.home {
+  min-width: 66px;
+  white-space: nowrap;
+}
+.economics,
+.history {
+  text-decoration: none;
+  text-transform: lowercase;
+  font-weight: 600;
+  color: inherit;
+  min-width: 63px;
+}
+.economics {
+  min-width: 96px;
+}
+.economics-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 4px 0 0;
+}
+.demo-politics {
+  text-decoration: none;
+  position: relative;
+  line-height: 28px;
+  text-transform: lowercase;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 126px;
+  z-index: 1;
+}
+.demo-politics-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 13px 0 0;
+}
+.geography {
+  text-decoration: none;
+  position: relative;
+  line-height: 28px;
+  text-transform: lowercase;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 99px;
+  z-index: 1;
+}
+.history-parent,
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+  text-align: left;
+  font-family: var(--font-outfit);
+}
+.history-parent {
+  margin: 0;
+  justify-content: flex-start;
+  gap: 66px;
+  font-size: var(--font-size-xl);
+  color: var(--color-gold-100);
+}
+.navbar {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-mediumturquoise);
+  justify-content: space-between;
+  padding: 16px 153px 17px 118px;
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-5xl);
+  color: #fff560;
+}
+.hi-there,
+.i-am-sohan,
+.my-digital-portfolio {
+  margin: 0;
+  position: relative;
+  display: inline-block;
+}
+.my-digital-portfolio {
+  width: 394px;
+  height: 82px;
+  font-size: inherit;
+  line-height: 189%;
+  font-weight: 400;
+  font-family: var(--font-oswald);
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.hi-there,
+.i-am-sohan {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+}
+.hi-there {
+  width: 412px;
+  font-size: 96px;
+  line-height: 99px;
+  max-width: 100%;
+}
+.i-am-sohan {
+  align-self: stretch;
+  height: 88px;
+  font-size: 66px;
+  line-height: 100%;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.span {
+  letter-spacing: 0.12em;
+}
+.im-a-studying-container {
+  flex: 1;
+  position: relative;
+  line-height: 189%;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 2;
+}
+.description {
+  width: 549px;
+  flex-direction: row;
+  padding: 0 2px;
+  box-sizing: border-box;
+  font-size: var(--font-size-xl);
+}
+.description,
+.introduction,
+.introduction-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.introduction {
+  flex: 1;
+  flex-direction: column;
+}
+.introduction-wrapper {
+  width: 633px;
+  flex-direction: row;
+  padding: 0 6px;
+  box-sizing: border-box;
+}
+.details {
+  position: relative;
+  line-height: 100%;
+  text-transform: capitalize;
+  display: inline-block;
+  min-width: 105px;
+}
+.details-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 25px 0 var(--padding-xl);
+}
+.frame-child {
+  height: 135px;
+  width: 1192px;
+  position: relative;
+  border-radius: var(--br-lg);
+  background-color: var(--color-steelblue-200);
+  display: none;
+  max-width: 100%;
+  z-index: 0;
+}
+.name {
+  position: relative;
+  line-height: 100%;
+  text-transform: capitalize;
+  display: inline-block;
+  min-width: 67px;
+  z-index: 2;
+}
+.name-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 56px;
+}
+.sohan-gowda-m {
+  position: relative;
+  line-height: 100%;
+  text-transform: capitalize;
+  color: var(--color-black);
+  z-index: 2;
+}
+.student-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 52px 0 0;
+  gap: var(--gap-10xl);
+}
+.classsec,
+.th-a {
+  position: relative;
+  line-height: 100%;
+  text-transform: capitalize;
+  display: inline-block;
+  min-width: 108px;
+  z-index: 2;
+}
+.th-a {
+  min-width: 90px;
+}
+.class-detail,
+.classsec-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.class-detail {
+  flex-direction: row;
+  padding: 0 10px 0 8px;
+  color: var(--color-black);
+}
+.classsec-parent {
+  flex-direction: column;
+  padding: 0 60px 0 0;
+  gap: var(--gap-10xl);
+}
+.empty,
+.roll-no {
+  position: relative;
+  line-height: 100%;
+  text-transform: capitalize;
+  display: inline-block;
+  min-width: 85px;
+  z-index: 2;
+}
+.empty {
+  min-width: 30px;
+}
+.roll-number-value {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xl) 0 var(--padding-14xl);
+  color: var(--color-black);
+}
+.roll-number-area,
+.roll-number-area-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.roll-number-area {
+  gap: 26px;
+}
+.roll-number-area-wrapper {
+  padding: 3px 0 0;
+}
+.email {
+  position: relative;
+  line-height: 100%;
+  text-transform: capitalize;
+  display: inline-block;
+  min-width: 63px;
+  z-index: 2;
+}
+.email-area {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 21px 0 var(--padding-xl);
+}
+.yosohanggmailcom {
+  height: 32px;
+  position: relative;
+  line-height: 100%;
+  display: inline-block;
+  color: var(--color-black);
+  flex-shrink: 0;
+  white-space: nowrap;
+  z-index: 2;
+}
+.email-area-parent {
+  width: 246px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-10xl);
+}
+.my-image-icon,
+.untitled-design-2-removebg-p-icon {
+  position: absolute;
+  top: 358px;
+  left: 264px;
+  width: 500px;
+  height: 500px;
+  transform: rotate(-90deg);
+  object-fit: contain;
+}
+.my-image-icon {
+  top: 0;
+  left: 0;
+  width: 637px;
+  height: 620px;
+  object-fit: cover;
+  z-index: 2;
+}
+.untitled-design-2-removebg-p-parent {
+  height: 841px;
+  width: 707px;
+  position: absolute;
+  margin: 0 !important;
+  top: -645px;
+  right: -130px;
+}
+.frame-group,
+.frame-parent,
+.rectangle-parent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.rectangle-parent {
+  align-self: stretch;
+  border-radius: var(--br-lg);
+  background-color: var(--color-steelblue-200);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-3xl) var(--padding-14xl) 28px 45px;
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-xl);
+  z-index: 1;
+  font-size: var(--font-size-5xl);
+  color: var(--color-steelblue-100);
+}
+.frame-group,
+.frame-parent {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frame-group {
+  align-self: stretch;
+  gap: 5px;
+  font-size: 32px;
+}
+.frame-parent {
+  width: 1192px;
+  gap: 171px;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-black);
+  font-family: var(--font-outfit);
+}
+.desktop-2,
+.main-area {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.main-area {
+  width: 1428px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  max-width: 100%;
+}
+.desktop-2 {
+  width: 100%;
+  position: relative;
+  background-color: #f8f6e3;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 61px;
+  gap: 138px;
+  letter-spacing: normal;
+  line-height: normal;
+}
+@media screen and (max-width: 1200px) {
+  .rectangle-parent {
+    padding-left: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+  .frame-parent {
+    gap: 85px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .my-digital-portfolio {
+    font-size: 38px;
+    line-height: 73px;
+  }
+  .hi-there {
+    font-size: var(--font-size-29xl);
+    line-height: 58px;
+  }
+  .i-am-sohan {
+    font-size: 53px;
+    line-height: 53px;
+  }
+  .details {
+    font-size: 26px;
+    line-height: 26px;
+  }
+  .rectangle-parent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 750px) {
+  .history-parent {
+    display: none;
+    gap: 33px;
+  }
+  .navbar {
+    padding-left: 59px;
+    padding-right: 76px;
+    box-sizing: border-box;
+  }
+  .frame-parent {
+    gap: 43px;
+  }
+  .desktop-2 {
+    gap: 69px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .history-parent {
+    gap: 16px;
+  }
+  .navbar {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .hi-there,
+  .my-digital-portfolio {
+    font-size: var(--font-size-10xl);
+    line-height: 54px;
+  }
+  .hi-there {
+    line-height: 38px;
+  }
+  .i-am-sohan {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .im-a-studying-container {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .classsec,
+  .details,
+  .email,
+  .empty,
+  .name,
+  .roll-no,
+  .sohan-gowda-m,
+  .th-a,
+  .yosohanggmailcom {
+    font-size: var(--font-size-lgi);
+    line-height: 19px;
+  }
+  .frame-parent {
+    gap: 21px;
+  }
+  .desktop-2 {
+    gap: 34px;
+  }
+}
