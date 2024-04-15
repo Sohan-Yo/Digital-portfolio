@@ -1,0 +1,25 @@
+body{
+    background-color: #F8F6E3;
+}
+
+.chapter{
+    width: 394px;
+    height: 82px;
+    font-size: inherit;
+    line-height: 189%;
+    font-weight: 400;
+    font-size: 25px;
+    font-family: var(--font-oswald);
+    max-width: 100%;
+    margin-top: 30px;
+}
+.mainSec{
+    display: flex;
+    justify-content: center;
+}
+
+.mainImg{
+    
+    width: 1000px;
+    height: 200px;
+}
