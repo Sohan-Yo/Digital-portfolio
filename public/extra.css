@@ -17,9 +17,11 @@ body{
     display: flex;
     justify-content: center;
 }
-
-.mainImg{
-    
-    width: 1000px;
-    height: 200px;
+.ContentSec{
+    margin-left: 10px;
+}
+.otherTxt{
+    font-size: inherit;
+    font-family: var(--font-oswald);
+    font-size: 20px;
 }
